@@ -1,5 +1,5 @@
 <?php
-
+// вдалі 
 // Функція для додавання двох чисел
 function add($a, $b) {
     return $a + $b;
@@ -9,13 +9,14 @@ function add($a, $b) {
 function multiply($a, $b) {
     return $a * $b;
 }
-
-// Функція для розрахунку квадратного кореня числа
-function calculateSquareRoot($num) {
-    if ($num >= 0) {
-        return sqrt($num);
+// невдалі 
+// Функція для вилучення елементу з масиву за індексом
+function removeElement($array, $index) {
+    if (array_key_exists($index, $array)) {
+        unset($array[$index]);
+        return $array;
     } else {
-        return "Can't calculate square root of negative number";
+        return "Index doesn't exist in the array";
     }
 }
 
