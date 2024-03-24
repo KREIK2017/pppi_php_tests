@@ -1,14 +1,4 @@
 <?php
-// вдалі 
-// Функція для додавання двох чисел
-function add($a, $b) {
-    return $a + $b;
-}
-
-// Функція для множення двох чисел
-function multiply($a, $b) {
-    return $a * $b;
-}
 // невдалі 
 // Функція для вилучення елементу з масиву за індексом
 function removeElement($array, $index) {
